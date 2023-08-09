@@ -1,4 +1,8 @@
 import { FaStarHalf } from "react-icons/fa";
+import hype1 from "../assets/hype1.mp4";
+import hype2 from "../assets/hype2.mp4";
+import reggie from "../assets/reggie.mp4";
+import jayBad from "../assets/jay_bad.mp4";
 
 function Hype() {
   return (
@@ -18,16 +22,16 @@ function Hype() {
       </div>
       <div className="flex flex-wrap justify-center gap-3">
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src="/src/assets/hype1.mp4" type="video/mp4"></source>
+          <source src={hype1} type="video/mp4"></source>
         </video>
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src="/src/assets/reggie.mp4" type="video/mp4"></source>
+          <source src={reggie} type="video/mp4"></source>
         </video>
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src="/src/assets/hype2.mp4" type="video/mp4"></source>
+          <source src={hype2} type="video/mp4"></source>
         </video>
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src="/src/assets/jay_bad.mp4" type="video/mp4"></source>
+          <source src={jayBad} type="video/mp4"></source>
         </video>
       </div>
     </div>

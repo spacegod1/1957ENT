@@ -1,4 +1,4 @@
-import { slides } from "../data/carouselData.json";
+import { slides } from "../data/carouselData.ts";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useState } from "react";
 
