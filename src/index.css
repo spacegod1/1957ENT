@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000300;
+  background-image: url("./assets/backgroundvibes_1.png");
+}
+
+.bg-blur {
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+
+.logo {
+  height: 4.5rem;
+}
+
+.logo_title {
+  font-family: "Notable", sans-serif;
+}
+
+.nav_list {
+  font-family: "Syne", sans-serif;
+}
+
+.audiowide {
+  font-family: "Audiowide", cursive;
+}
+
+.hype_title {
+  font-family: "Bangers", cursive;
+}
+
+.right_star {
+  /* -webkit-transform: scaleX(-1); */
+  transform: scaleX(-1);
+}
+
+.arrow {
+  position: absolute;
+  color: #555;
+  filter: drop-shadow(0px 0px #555);
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.arrow_left {
+  left: 1rem;
+  top: 55%;
+}
+
+.arrow_right {
+  right: 1rem;
+  top: 55%;
+}

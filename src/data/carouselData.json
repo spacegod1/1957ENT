@@ -1,0 +1,24 @@
+{
+  "slides": [
+    {
+      "src": "/src/assets/asakaaboys.jpg",
+      "alt": "carousel-image"
+    },
+    {
+      "src": "/src/assets/flyer_1.jpg",
+      "alt": "carousel-image"
+    },
+    {
+      "src": "/src/assets/flyer_2.jpg",
+      "alt": "carousel-image"
+    },
+    {
+      "src": "/src/assets/flyer_3.jpg",
+      "alt": "carousel-image"
+    },
+    {
+      "src": "/src/assets/flyer_4.jpg",
+      "alt": "carousel-image"
+    }
+  ]
+}
