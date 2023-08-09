@@ -22,16 +22,16 @@ function Hype() {
       </div>
       <div className="flex flex-wrap justify-center gap-3">
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src={hype1} type="video/mp4"></source>
+          <source src={`${hype1}#t=0.001`} type="video/mp4"></source>
         </video>
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src={reggie} type="video/mp4"></source>
+          <source src={`${reggie}#t=0.001`} type="video/mp4"></source>
         </video>
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src={hype2} type="video/mp4"></source>
+          <source src={`${hype2}#t=0.001`} type="video/mp4"></source>
         </video>
         <video className="m-5 h-[38rem] rounded-sm" controls>
-          <source src={jayBad} type="video/mp4"></source>
+          <source src={`${jayBad}#t=0.001`} type="video/mp4"></source>
         </video>
       </div>
     </div>
